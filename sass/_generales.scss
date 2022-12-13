@@ -1,0 +1,134 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: whitesmoke;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    header{
+        background-color: lightskyblue;
+        font-family: 'Roboto', sans-serif;
+        font-size: large;
+        text-align: right;
+        padding: 40px 40px 0px 40px;
+        position: sticky;
+        top: 0;
+        display: flex;
+        grid-area: header;
+        text-align: center;
+        flex-direction: column;
+        align-items: center;
+        .navegador{
+            display: flex;
+            flex-direction: column;
+            li{
+                padding-left: 15px;
+                list-style-type: none;
+                font-style: normal;
+                display: inline;
+                font-weight:bold;
+            }
+            @media(min-width:500px){
+                display: flex;
+                justify-content: space-between;
+                flex-direction:row;
+            }
+            @media(min-width:1024px){
+                display: flex;
+                flex-direction: row;
+                justify-content: end;
+            }
+        }
+        @media(min-width: 500px){
+            flex-direction: row;
+            padding: 40px 40px 0px 10px;
+        }
+    }
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+section{
+    margin-top: 25px;
+    text-align: center;
+}
+
+footer{
+    grid-area: footer;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    margin-top: -4px;
+    background-color: lightskyblue;
+    .info{
+        margin-top: 0px;
+        p{
+            text-align: center;
+        }
+    }
+}
+
+.promesas li{
+    margin-top: 10px;
+    margin-left: 80px;
+    text-align: left;
+    font-family: 'Roboto', sans-serif;
+    text-transform: uppercase;
+    font-weight: 800;
+    letter-spacing: 4px;
+    word-spacing: 10px;
+}
+
+.nos{
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    word-spacing: 10px;
+    margin-top: 25px;
+    margin-bottom: 775px;
+}
+
+.vacio{
+    grid-area: vacio;
+    margin-top: 150px;
+    @media(min-width:500px){
+        margin-top: 330px;
+    }
+    @media(min-width:768px){
+        margin-top: 341px;
+    }
+    @media(min-width:1024px){
+        margin-bottom: 610px;
+    }
+}
+
+.card{
+    background-color: whitesmoke;
+    position: unset;
+}
+
+ul{
+    padding-left: 0;
+}
+
+.boton{
+    display: flex;
+    justify-content: center;
+    
+}
+
+.btn{
+    background-color: lightskyblue;
+    color: black;
+}
+
+.cntfooter{
+    margin-top: 150px;
+}

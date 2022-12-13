@@ -79,25 +79,6 @@ footer{
     text-align: center;
 }
 
-.ventaP h1{
-    text-align: center;
-}
-
-.ventaP {
-    text-align: center;
-    margin-bottom: 800px;
-}
-
-.ventaP{
-    margin-top: 25px;
-}
-
-.ventaP a{
-    background-color: lightskyblue;
-    margin-left: 10px;
-    margin-right: 10px;
-}
-
 .ventaP2 h1{
     margin-top: 25px;
     text-align: center;
@@ -226,10 +207,12 @@ footer{
     "subtitulo"
     "fachada"
     "footer";
-    gap: 20px;
+    
 }
 
 .izq{
+    display: flex;
+    flex-direction: column;
     grid-area: izq;
 }
 
@@ -326,6 +309,20 @@ ul{
     margin-bottom: 20px;
 }
 
+.boton{
+    display: flex;
+    justify-content: center;
+    
+}
+
+.btn{
+    background-color: lightskyblue;
+    color: black;
+}
+
+.cntfooter{
+    margin-top: 150px;
+}
 
 .envolturaP{
     display: grid;
@@ -343,6 +340,7 @@ ul{
     }
 
     .Logo{
+        display: flex;
         flex-direction: row;
     }
 

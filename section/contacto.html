@@ -5,7 +5,9 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../style/estilos.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="../style/style.css">
     <title>Document</title>
 </head>
 
@@ -35,20 +37,39 @@
                 </ul>
             </nav>
         </header>
-        
-            <section class="izq">
-                <h1>Contanos tu experiencia</h1>
-                <p>En esta zona habria un formulario</p>
-            </section>
-            <section class="der">
-                <div >
-                    <a href="https://www.google.com.ar/maps/place/Am+Propiedades/@-34.9198378,-57.9504833,16.32z/data=!4m5!3m4!1s0x0:0x95050ab725701ca2!8m2!3d-34.9175229!4d-57.9572786"
+
+        <section class="izq">
+            <h1>Contanos tu experiencia</h1>
+            <div class="mb-3">
+                <label for="exampleFormControlInput1" class="form-label">Nombre</label>
+                <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="">
+            </div>
+            <div class="mb-3">
+                <label for="exampleFormControlInput1" class="form-label">Apellido</label>
+                <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="">
+            </div>
+            <div class="mb-3">
+                <label for="exampleFormControlInput1" class="form-label">Email</label>
+                <input type="email" class="form-control" id="exampleFormControlInput1"
+                    placeholder="pepitalapistolera@ejemplo.com">
+            </div>
+            <div class="mb-3">
+                <label for="exampleFormControlTextarea1" class="form-label">Mensaje</label>
+                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+            </div>
+            <div class="boton">
+                <button type="button" class="btn btn-primary btn-sm">Contactanos</button>
+            </div>
+        </section>
+        <section class="der">
+            <div>
+                <a href="https://www.google.com.ar/maps/place/Am+Propiedades/@-34.9198378,-57.9504833,16.32z/data=!4m5!3m4!1s0x0:0x95050ab725701ca2!8m2!3d-34.9175229!4d-57.9572786"
                     target="_blank"><img class="map" src="../images/mapa-inmo.png"
-                    alt="mapa de la dirección de la inmobiliaria."></a>
-                </div>
-            </section>
-        
-        <footer>
+                        alt="mapa de la dirección de la inmobiliaria."></a>
+            </div>
+        </section>
+
+        <footer class="cntfooter">
             <section class="info">
                 <div>
                     <a href="https://www.instagram.com/am_propiedades_ok/?igshid=YmMyMTA2M2Y%3D" target="_blank"><img
